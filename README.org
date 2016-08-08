@@ -1,0 +1,8 @@
+* Method Name convention:
+- names of the methods implementing NexStar Commands from 
+the protocol start with Capital letters
+- names of the methods implementing additional functionality start with
+small letters 
+
+* gpsd returns coordinates in Decimal Decrees 
+- setToDDCoordinate() sets the NC location using thsi format
